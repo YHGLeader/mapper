@@ -1,0 +1,4 @@
+wifi
+requests
+matplotlib
+numpy

@@ -77,6 +77,18 @@ def on_click(event, ssids, bars):
 
 def main():
     previous_ssids = set()  # Store previous SSIDs
+    
+    print('''
+\033[31m ███╗   ███╗ █████╗ ██████╗ ██████╗ ███████╗██████╗ 
+ ████╗ ████║██╔══██╗██╔══██╗██╔══██╗██╔════╝██╔══██╗
+ ██╔████╔██║███████║██████╔╝██████╔╝█████╗  ██████╔╝
+ ██║╚██╔╝██║██╔══██║██╔═══╝ ██╔═══╝ ██╔══╝  ██╔══██╗
+ ██║ ╚═╝ ██║██║  ██║██║     ██║     ███████╗██║  ██║
+ ╚═╝     ╚═╝╚═╝  ╚═╝╚═╝     ╚═╝     ╚══════╝╚═╝  ╚═╝
+                                                   
+
+
+                                                   \033[0m''')
 
     command = input("Enter command (type 'map' to visualize nearby Wi-Fi signals): ").strip().lower()
     if command == 'map':
